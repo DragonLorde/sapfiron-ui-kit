@@ -47,7 +47,7 @@ const NumberInput: FC<INumberInputProps> = (
     if (onChange) onChange(numberInputValue)
   }, [onChange])
 
-  const input = useMemo(() => (
+    const input = useMemo(() => (
     <InputNumber
       onFocus={onFocusInput}
       onBlur={onBlurInput}
@@ -55,6 +55,7 @@ const NumberInput: FC<INumberInputProps> = (
       prefix={icon}
       value={inputValue}
       placeholder={placeholderText}
+      /*  @ts-ignore */
       onChange={onChangeInput}
       name={name}
       min={min}
