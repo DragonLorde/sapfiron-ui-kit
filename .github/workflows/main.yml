@@ -15,8 +15,8 @@ jobs:
               node-version: 16
               registry-url: https://npm.pkg.github.com/
               scope: '@DragonLorde'
-        - run: yarn
-        - run: yarn build
-        - run: yarn publish
+        - run: npm install
+        - run: npm run build
+        - run: npm publish
           env:
             NODE_AUTH_TOKEN: ${{secrets.NPM_AUTH_TOKEN}}   
