@@ -17,9 +17,9 @@
     "semantic-release": "semantic-release"
   },
   "publishConfig": {
-    "registry": "https://npm.pkg.github.com/@DragonLorde"
+    "registry": "https://npm.pkg.github.com/@dragonLorde"
   },
-  "author": "Sapfiron",
+  "author": "dragonLorde",
   "license": "MIT",
   "devDependencies": {
     "@rollup/plugin-babel": "5.3.1",
