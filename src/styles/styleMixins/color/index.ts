@@ -1,0 +1,1 @@
+export { opacityColor } from './opacityColor'

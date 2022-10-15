@@ -1,0 +1,14 @@
+.idea
+.vscode
+node_modules
+yarn-error.log
+build
+eslintreport.html
+storybook-static
+.Dockerfile.swp
+.prettierrc
+.yarnrc
+.npmrc
+
+# testing
+/coverage

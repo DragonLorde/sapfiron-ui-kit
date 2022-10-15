@@ -1,0 +1,23 @@
+.idea
+.vscode
+node_modules
+src
+.storybook
+.dockerignore
+.env
+.env*
+.eslint*
+.gitignore
+.gitlab-ci.yml
+.*rc
+*.json
+.*.json
+*js
+*tgz
+
+# other project file
+yarn-error.log
+
+# testing
+test
+coverage

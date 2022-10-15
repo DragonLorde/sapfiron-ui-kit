@@ -1,0 +1,1 @@
+export { onClickEffect } from './onClickEffect'
