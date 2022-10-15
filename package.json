@@ -1,5 +1,5 @@
 {
-  "name": "@dragonLorde/sapfiron-ui-kit",
+  "name": "@dragonlorde/sapfiron-ui-kit",
   "version": "1.6.3",
   "description": "React components kit authored Sapfiron(Anokhin.D)",
   "homepage": "/",
@@ -17,7 +17,7 @@
     "semantic-release": "semantic-release"
   },
   "publishConfig": {
-    "registry": "https://npm.pkg.github.com/@dragonLorde"
+    "registry": "https://npm.pkg.github.com/@dragonlorde"
   },
   "author": "dragonLorde",
   "license": "MIT",
