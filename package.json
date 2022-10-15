@@ -17,7 +17,7 @@
     "semantic-release": "semantic-release"
   },
   "publishConfig": {
-    "registry": "https://npm.pkg.github.com/@frontent-sapfiron"
+    "registry": "https://npm.pkg.github.com/@DragonLorde"
   },
   "author": "Sapfiron",
   "license": "MIT",
