@@ -29,7 +29,7 @@ const StyledInputContainer = styled.div`
 `
 
 const StyledInputEditablePlaceholder = styled.span`
-  color: ${(props) => props.theme.colors.black};
+  color: ${(props) => props.theme.colors.white};
   ${defaultTitleStyle(6)}
   position: absolute;
   left: 14px;
@@ -95,7 +95,7 @@ const StyledInputWrap = styled.div<{width?: number | string}>`
     height: 100%;
     background: transparent;
     border: none;
-    color: ${(props) => props.theme.colors.black};
+    color: ${(props) => props.theme.colors.white};
     padding: 26px 14px 6px;
     font-weight: ${(props) => props.theme.fontSettings.weight.bold};
     font-size: ${(props) => props.theme.fontSettings.size.small}
@@ -170,10 +170,10 @@ const StyledInputWrap = styled.div<{width?: number | string}>`
 
   &.focus {
     border-color: ${(props) => props.theme.colors.blue_600};
-    background-color: ${(props) => props.theme.colors.white};
+    background-color: ${(props) => props.theme.colors.gray_200};
 
     & .ant-input::placeholder {
-      color: ${(props) => props.theme.colors.gray_500};
+      color: ${(props) => props.theme.colors.white};
     }
   }
 

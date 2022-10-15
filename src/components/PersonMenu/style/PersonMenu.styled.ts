@@ -5,13 +5,13 @@ const StyledPersonMenu = styled('div')`
   display: flex;
   align-items: center;
   position: relative;
-  width: 280px;
+  width: 200px;
 `
 
 const Avatar = styled('div')((props) => ({
-  width: 45,
-  height: 45,
-  background: props.theme.colors.white,
+  width: 38,
+  height: 38,
+  background: props.theme.colors.blue_600,
   borderRadius: 5,
   boxShadow: '0px 2px 2px rgba(0, 0, 0, 0.25)',
   display: 'flex',
@@ -33,7 +33,7 @@ const PersonName = styled('div')((props) => ({
 }))
 
 const PersonEmail = styled('div')((props) => ({
-  marginTop: 8,
+  marginTop: 2,
   fontSize: props.theme.fontSettings.size.small,
   fontWeight: props.theme.fontSettings.weight.bold,
   color: props.theme.colors.gray_500,

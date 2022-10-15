@@ -7,7 +7,7 @@ const { WrapperForm, Title } = Styled
 
 const FormSignIn: FC<FormSignInProps> = ({ linkForgotPassword, onSubmit }) => (
   <WrapperForm>
-    <Title>Авторизация</Title>
+    <Title>ВХОД</Title>
     <Form linkForgotPassword={linkForgotPassword} onSubmit={onSubmit} />
   </WrapperForm>
 )

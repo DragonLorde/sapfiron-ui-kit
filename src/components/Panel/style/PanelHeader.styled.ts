@@ -6,7 +6,7 @@ const { getSpacing } = styleMixins.offset
 
 const PanelHeaderWrap = styled.div`
   ${defaultTitleStyle(6)};
-  padding: ${getSpacing(2)};
+  padding: ${getSpacing(1)};
   box-shadow: ${(p) => p.theme.decoration.boxShadow.panel};
   display: flex;
   justify-content: space-between;

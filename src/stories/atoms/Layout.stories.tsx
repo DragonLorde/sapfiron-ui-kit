@@ -1,16 +1,17 @@
 import { ComponentMeta, ComponentStory } from '@storybook/react'
 
-
 import { Layout } from '../../components/atoms'
 import { Panel } from '../../components/Panel'
 import { PersonMenu } from '../../components/PersonMenu'
 import { Typography } from '../../components/Typography'
+import { Sider } from '../../components/atoms/sider'
+import { ListOrder } from '../../icon/ListOrder'
+import { CarGo } from '../../icon/CarGo'
 
 export default {
   title: 'UI-KIT/Atoms/Layout',
   component: Layout,
 } as ComponentMeta<typeof Layout>
-
 
 const Menu = {
   person: {
@@ -28,10 +29,21 @@ const Menu = {
   ],
 }
 
+const items = [
+  {
+    title: 'Список заявок',
+    icon: <ListOrder width={20} height={20} />,
+  },
+  {
+    title: 'Создать заявку',
+    icon: <CarGo width={20} height={20} />,
+  },
+]
+
 const content = (
   <>
     <Layout.Sider>
-
+      <Sider items={items} />
     </Layout.Sider>
     <Layout>
       <Layout.Header>
@@ -44,7 +56,7 @@ const content = (
       </Layout.Header>
       <Layout>
         <Layout.Content>
-          content
+          <div style={{ height: '400px' }} />
         </Layout.Content>
       </Layout>
     </Layout>

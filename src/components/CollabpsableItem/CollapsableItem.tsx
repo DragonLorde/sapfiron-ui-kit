@@ -3,6 +3,7 @@ import {
 } from 'react'
 import { ICollapsableItem } from './model/CollapsableItem.model'
 import { CollapsableStyled } from './style/CollapsableItem.styled'
+import { ArrowDropDown } from '../../icon'
 
 const {
   LocalMainWrapper,
@@ -27,7 +28,7 @@ export const CollapsableItem: FC<PropsWithChildren<ICollapsableItem>> = (
   const [isOpened, setIsOpened] = useState(defaultOpened)
   const [contentHeight, setContentHeight] = useState(0)
   const contentRef = useRef<HTMLDivElement>(null)
-  const icon = arrowIcon || <div />
+  const icon = arrowIcon || <ArrowDropDown onClick={() => {}} isOpen={isOpened} />
 
   useEffect(() => {
     setContentHeight(contentRef.current?.clientHeight ?? 0)

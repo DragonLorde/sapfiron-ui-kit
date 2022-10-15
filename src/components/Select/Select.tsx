@@ -6,6 +6,7 @@ import { SelectProps } from './model/Select.model'
 import { Styled } from './style/Select.styled'
 import { useUserEvent } from './utils'
 import { Skeleton } from '../atoms/Skeleton'
+import { ArrowDropDown } from '../../icon'
 
 const { StyledSelect, Option, SelectWrapper } = Styled
 
@@ -58,6 +59,7 @@ const Select: FC<SelectProps> = (props) => {
   return (
     <SelectWrapper isOpen={isOpen} width={width} className={classNameWrap}>
       <StyledSelect
+        suffixIcon={<ArrowDropDown onClick={() => {}} isOpen={false} />}
         mode={mode}
         showSearch={showSearch}
         defaultValue={getDefaultValue}

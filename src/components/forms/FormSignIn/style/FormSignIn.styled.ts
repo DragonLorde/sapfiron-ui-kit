@@ -2,18 +2,20 @@ import styled from 'styled-components'
 import { getSpacing } from '../../../../styles/styleMixins/offset'
 
 const WrapperForm = styled('div')`
-  width: 600px;
-  padding: 20px 80px;
+  width: 450px;
+  height: 370px;
+  padding: 20px 25px;
   background: ${(props) => props.theme.colors.white};
-  border: 1px solid ${(props) => props.theme.colors.gray_500};
-  box-shadow: 0px 3px 3px rgba(0, 0, 0, 0.25);
-  border-radius: ${(props) => props.theme.decoration.borderRadius.small};
+  background: #FFFFFF;
+  box-shadow: 6px 6px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 12px;
 `
 
 const FormStyled = styled('form')``
 
 const Title = styled('div')`
   font-size: ${(props) => props.theme.fontSettings.size.large};
+  font-weight: bold;
   text-align: center;
 `
 
