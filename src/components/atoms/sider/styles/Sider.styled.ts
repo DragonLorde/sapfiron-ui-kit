@@ -2,7 +2,7 @@ import styled from 'styled-components'
 import { Link } from 'react-router-dom'
 
 const SiderContainer = styled.div<{isOpen: boolean}>`
-  height: calc( 100vh - 60px );
+  height: calc( 100vh - 16px );
   width: ${(props) => props.isOpen ? '160px' : '80px'};
   display: flex;
   flex-direction: column;

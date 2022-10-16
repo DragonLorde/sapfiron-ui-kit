@@ -48,7 +48,7 @@ const StyledSelect = styled(Select)<SelectProps>((props) => ({
     height: '18px',
   },
   '& .ant-select-selector .ant-select-selection-item': {
-    color: props.theme.colors.black,
+    color: props.theme.colors.white,
   },
   '&:not(.ant-select-customize-input) .ant-select-selector': {
     padding: '14px 4px 14px 26px',

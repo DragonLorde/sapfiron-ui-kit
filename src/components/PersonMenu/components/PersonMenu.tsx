@@ -8,6 +8,7 @@ import { PersonMenuProps } from '../model/PersonMenu.model'
 import { Styled } from '../style/PersonMenu.styled'
 import PersonInfo from './PersonInfo'
 import { useOnClickOutside } from '../hooks'
+import { ArrowDropDown } from '../../../icon'
 
 const {
   StyledPersonMenu,
@@ -33,7 +34,7 @@ const PersonMenu: FC<PersonMenuProps> = ({ person, itemsMenu }) => {
 
       <PersonInfo person={person} />
 
-      <StyledArrow><div /></StyledArrow>
+      <StyledArrow><ArrowDropDown isOpen={isOpen} onClick={onClick} /></StyledArrow>
 
       <DropDown
         items={itemsMenu}

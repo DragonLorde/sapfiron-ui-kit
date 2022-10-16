@@ -1,6 +1,6 @@
 {
   "name": "@dragonlorde/sapfiron-ui-kit",
-  "version": "1.6.7",
+  "version": "1.6.8",
   "description": "React components kit authored Sapfiron(Anokhin.D)",
   "homepage": "/",
   "main": "build/index.js",
