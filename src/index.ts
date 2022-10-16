@@ -13,3 +13,11 @@ export { PersonMenu } from './components/PersonMenu'
 export { Select } from './components/Select'
 
 export { Skeleton } from './components/atoms/Skeleton'
+
+export { CollapsableItem } from './components/CollabpsableItem'
+
+export { Sider } from './components/atoms/sider'
+
+export { Block } from './components/atoms/Block'
+
+export { Status } from './components/atoms/Status'

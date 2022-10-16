@@ -19,10 +19,13 @@ Primary.args = {
     {
       title: 'Список заявок',
       icon: <ListOrder width={20} height={20} />,
+      link: '/asf',
     },
     {
       title: 'Создать заявку',
       icon: <CarGo width={20} height={20} />,
+      link: '/sf',
     },
   ],
+  isOpenMenu: false,
 }
