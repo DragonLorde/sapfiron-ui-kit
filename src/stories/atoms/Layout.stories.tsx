@@ -29,7 +29,7 @@ const Menu = {
   ],
 }
 
-const items = [
+const items: any = [
   {
     title: 'Список заявок',
     icon: <ListOrder width={20} height={20} />,

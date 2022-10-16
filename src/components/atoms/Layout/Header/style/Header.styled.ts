@@ -8,7 +8,6 @@ const Header = styled(Layout.Header)`
   background-color: transparent;
   line-height: normal;
   color: inherit;
-  margin-top: 0 !important;
   ${layoutBlockStyle}
 `
 

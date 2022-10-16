@@ -3,7 +3,7 @@ import { Layout } from 'antd'
 
 const Sider = styled(Layout.Sider)`
   background-color: transparent;
-  margin: 0;
+  margin: 8px;
   height: 100%;
 `
 
