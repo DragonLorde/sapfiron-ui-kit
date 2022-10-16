@@ -3,4 +3,5 @@ export interface BlockModel {
     labelText: string,
     text: string,
     span?: string,
+    link: string,
 }

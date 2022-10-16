@@ -17,4 +17,5 @@ Primary.args = {
   color: '#FAAC0F',
   text: '25.24.1241: 15.00',
   span: 'Номер ТС',
+  link: '/asfasf',
 }

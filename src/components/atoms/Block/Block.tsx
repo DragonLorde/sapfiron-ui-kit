@@ -10,9 +10,9 @@ const {
 } = Styled
 
 const Block:FC<BlockModel> = ({
-  text, labelText, span, color,
+  text, labelText, span, color, link,
 }) => (
-  <BlockContainer>
+  <BlockContainer to={link}>
     <BlockWrapper>
       <BlockLabel color={color}>
         {labelText}

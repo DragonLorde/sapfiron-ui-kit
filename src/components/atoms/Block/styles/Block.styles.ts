@@ -1,6 +1,7 @@
 import styled from 'styled-components'
+import { Link } from 'react-router-dom'
 
-const BlockContainer = styled.div`
+const BlockContainer = styled(Link)`
   width: 320px;
   height: 150px;
   background: #373936;
