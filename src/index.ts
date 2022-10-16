@@ -21,3 +21,21 @@ export { Sider } from './components/atoms/sider'
 export { Block } from './components/atoms/Block'
 
 export { Status } from './components/atoms/Status'
+
+export { ArrowDropDown } from './icon'
+
+export { CarGo } from './icon/CarGo'
+
+export { Burger } from './icon'
+
+export { Chat } from './icon/Chat'
+
+export { ListOrder } from './icon/ListOrder'
+
+export { Logo } from './icon/Logo'
+
+export { Map } from './icon/Map'
+
+export { Profile } from './icon/Profile'
+
+export { Search } from './icon/Search'
